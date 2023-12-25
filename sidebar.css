@@ -1,0 +1,50 @@
+.sidebar{
+    background-color: white;
+    position: fixed;
+    top: 54px;
+    bottom: 0;
+    left: 0;
+    width: 72px;
+    padding-top: 5px;
+    z-index: 200;
+}
+.sidebar-link{
+    height:76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sidebar-link:hover{
+    background-color: rgb(235,235,235);
+}
+
+
+/* this syntax is used for all images inside sidebar */
+.sidebar-link img{
+    width: 24px;
+    margin-bottom: 6px;
+}
+.sidebar-link div{
+    font-family: Arial;
+    font-size: 10px;
+}
+
+/* 
+.home-icon{
+    width:30px;
+}
+.explore-icon{
+    width: 30px;
+}
+.subscription-icon{
+    width: 30px;
+}
+.originals-icon{
+    width: 30px;
+}
+.library-icon{
+    width: 30px;
+} */
+

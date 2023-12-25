@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox</title>
+</head>
+<body>
+    <div style="
+        display: flex;
+        flex-direction: row;
+    ">
+
+        <div style="background-color:lightblue;">div1 <p>text1</p></div>
+        <div style="background-color:lightpink;">div2</div>
+    </div>
+
+    <div style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    ">
+
+        <div style="background-color:lightblue; width:100px;">div1</div>
+        <div style="background-color:lightpink; flex:1;">div2</div>
+    </div>
+
+
+    <!-- grid is rigid while flexbox is not -->
+    <div style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    ">
+
+        <div style="background-color:lightblue; width:100px;">div1</div>
+        <div style="background-color:lightpink; flex:1;">div2</div>
+        <div style="background-color:lightblue; flex:2;">div1</div>
+    </div>
+    <div style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    ">
+
+        <div style="background-color:lightpink; flex:1;">div2 flex1</div>
+        <div style="background-color:lightblue; width:100px;">div1 100px</div>
+        <div style="background-color:lightcoral; flex:2;">div3 flex2</div>
+    </div>
+
+    <div style="
+        /* flexbox properties */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        margin-top: 30px;
+        height: 70px;
+        border-width:1px;
+        border-style: solid;
+    ">
+
+        <div style="background-color:lightpink; width:100px;">div1</div>
+        <div style="background-color:lightblue; width:100px;">div2</div>
+        <div style="background-color:lightcoral; width:100px;">div3</div>
+    </div>
+
+    <div style="
+        /* flexbox properties */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* start end center are other values */
+
+        margin-top: 30px;
+        height: 70px;
+        border-width:1px;
+        border-style: solid;
+    ">
+
+        <div style="background-color:lightpink; width:100px;">div1</div>
+        <div style="background-color:lightblue; width:100px;">div2</div>
+        <div style="background-color:lightcoral; width:100px;">div3</div>
+    </div>
+
+    <div style="
+        /* flexbox properties */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* other values are start end and stretch(default) */
+
+        margin-top: 30px;
+        height: 70px;
+        border-width:1px;
+        border-style: solid;
+    ">
+
+        <div style="background-color:lightpink; width:100px;">div1</div>
+        <div style="background-color:lightblue; width:100px;">div2</div>
+        <div style="background-color:lightcoral; width:100px;">div3</div>
+    </div>
+</body>
+</html>
